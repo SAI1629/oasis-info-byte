@@ -1,0 +1,85 @@
+body {
+    background: #222;
+    font-family: Arial, sans-serif;
+}
+
+button:focus {
+    outline: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.calculator {
+    display: inline-block;
+    background: #2c2c2c;
+    padding: 25px 20px;
+    margin-top: 2rem;
+    color: #fff;
+    width: 350px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    width: calc(100% - 20px);
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #3bae3f;
+    background: #383838;
+    border-radius: 5px;
+    border: 2px solid #3bae3f;
+}
+
+#output {
+    font-size: 1.1rem;
+    border-radius: 0 0 10px 10px;
+    border-top: 2px solid #3bae3f;
+}
+
+.calculator table {
+    margin: auto;
+    border-collapse: separate; 
+    border-spacing: 0; 
+}
+
+table {
+    margin-top: 15px;
+    border: 2px solid #3bae3f;
+    border-radius: 5px;
+}
+
+table tr td {
+    padding: 10px;
+    background: linear-gradient(135deg, #383838, #2c2c2c);
+    border-radius: 5px;
+    border: 1px solid #3bae3f; 
+}
+
+table tr td button {
+    padding: 10px 15px;
+    color: turquoise;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid turquoise;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+table tr td button:hover {
+    background-color: turquoise;
+    color: #fff;
+}
+
+table tr td p {
+    padding: 10px 15px;
+    color: turquoise;
+    margin: 0;
+    cursor: pointer;
+}
